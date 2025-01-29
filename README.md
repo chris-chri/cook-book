@@ -14,7 +14,7 @@ https://giphy.com/stickers/cooking-chef-kitchen-bJkjtzSFfmIxT1aJh6
 https://giphy.com/stickers/delicious-smell-taste-nH9p68iWISGHktlBrp
 https://giphy.com/stickers/cooking-kitchen-cook-YoKaNSoTHog8Y3550r
 https://giphy.com/stickers/art-cute-pixel-10XZq0DCLTO93y
- i have also used indetients infomation on the interent and can be found on all the website links of each of the food.
+ i have also used ingredients infomation on the interent and can be found on all the website links of each of the food.
 
 I did not use any youtube or Ai on my project.
 
