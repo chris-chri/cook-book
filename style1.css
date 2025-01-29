@@ -1,0 +1,149 @@
+body{
+    background-color: beige;
+}
+
+
+.heading{
+    display: grid;
+    grid-template-columns:  8fr 2fr;
+    margin-bottom: 40px;
+    margin-top:10px;
+    background-color: rgb(255, 204, 138);
+    padding-top: 80px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 10px 0px burlywood;
+}
+header{
+    font-size:40px;
+    text-align: center;
+    top: 40px;
+}
+.heading a{
+    text-decoration: none;
+    font-size: 23px;
+    background-image:  url(kit.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+
+.headinb header{
+    color: red;
+}
+
+.heading img{
+    width: 100px;
+    position: relative;
+    right: 500px;
+}
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.container1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.cakeImg img{
+    position: relative;
+    width: 200px;
+    left : 2px;
+    
+}
+
+.cake1 #nameCake1{
+    font-size: 20px;
+}
+
+.cake1 #title{
+font-size: 30px;
+font-weight: 600;
+text-decoration: underline;
+}
+
+.cake2 #nameCake2{
+    font-size: 26px;
+
+}
+.cake2 #title{
+    font-size: 30px;
+    font-weight:600;
+    text-decoration:underline;
+}
+
+.button1 button{
+    width: 160px;
+    border-right: 970px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(199, 171, 133);
+    border-radius: 10px;
+    float: left;
+
+}
+
+.button1 #bn1:hover{
+    background-image: url('you.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+
+.bakerImg img{
+    position: relative;
+    width: 350px;
+}
+
+.button1 #bn2:hover{
+    background-color: rgb(225, 204, 138) ;
+}
+
+
+.button3 button{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(199, 171, 133);
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.button3 #bn3:hover{
+    background-image: url('you.png');
+    background-size:cover;
+    background-position: center;
+    color:transparent
+}
+
+.button3 #bn4:hover{
+    background-color:  rgb(225, 204, 138);
+}
+
+    
+
+@media (max-width:820px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container1{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    .cakeImg img{
+        position: relative;
+        width: 200px;
+        right: 130px;
+    }
+
+}

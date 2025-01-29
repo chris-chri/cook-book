@@ -1,0 +1,177 @@
+body{
+    background-color: beige;
+}
+.heading{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    background-color: rgb(255, 204, 138);
+    padding-top: 80px;
+    border-radius: 20px;
+    box-shadow: 9px 8px 10px 0px burlywood;
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    background-image: url(choco.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+header{
+    font-size: 40px;
+    font-family: arial;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cookImg img{
+    width: 240px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+
+.chicken #food1{
+    font-size: 20px;
+    font-family: arial;
+    font-weight: 500;
+}
+.chicken #title{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+
+}
+
+.btn1 button{
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    background-color: burlywood;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.btn1 #btn1:hover{
+    background-image: url(you.png);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    border-radius: 10px;
+    
+    
+}
+
+.btn3 button{
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    background-color: burlywood;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.btn3 #btn3:hover{
+    background-image: url(you.png);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    border-radius: 10px;
+}
+.btn4 button{
+    background-color: rgb(211, 211, 192);
+}
+.btn4 #btn4:hover{
+    background-color: rgb(225, 204, 138);
+}
+
+
+
+.btn1 #btn2{
+    background-color:rgb(211, 211, 192);
+}
+
+.btn1 #btn2:hover{
+    background-color: rgb(255, 204, 138);
+}
+
+
+.container1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.container1 img{
+    position: relative;
+    height: 196px;
+    
+    
+
+}
+
+.macList h#head{
+    font-size: 20px;
+    font-weight:500 ;
+    font-family: arial;
+}
+.macList p#title{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.macList{
+    position: relative;
+    left: 5%;
+}
+@media (max-width: 800px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .left img{
+        width:50%;
+        margin-bottom: 60px;
+        position: relative;
+        left: 23%;
+
+        
+
+    }
+
+    .chicken #food1{
+        font-size: 25px;
+        
+    }
+    .btn1 #btn1{
+       background-image: url(you.png);
+         background-size: cover;
+         background-position: center;
+         color:transparent;
+    }
+    .container1{
+        grid-template-columns: 1fr;
+    }
+
+    .container1 img{
+        width: 50%;
+        margin-bottom: 60px;
+        position: relative;
+        left: 23%;
+    }
+}
