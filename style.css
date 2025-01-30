@@ -1,5 +1,6 @@
 body{
     background-color: beige;
+    overflow-x: hidden;
 }
 .heading{
     display: grid;
@@ -63,6 +64,7 @@ header{
 
 }
 
+
 .btn1 #btn1:hover{
     background-image: url(you.png);
     background-size: cover;
@@ -109,6 +111,38 @@ header{
 }
 
 
+.btn5 button{
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    background-color: burlywood;
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+
+}
+
+.btn5 #btn5:hover{
+    background-image: url(you.png);
+    background-image:cover;
+    background-position:center;
+    color:transparent;
+}
+.btn6 #btn6:hover{
+    background-color:rgb(255,204,138);
+}
+
+.btn7 button{
+    width: 170px;
+    height: 48px;
+    cursor:pointer;
+    background-color:burlywood;
+    border-radius:10px;
+    float: left;
+    margin-right: 50px;
+}
+
+
 .container1{
     display: grid;
     justify-content: center;
@@ -120,6 +154,7 @@ header{
 .container1 img{
     position: relative;
     height: 196px;
+    width: 200px;
     
     
 
@@ -138,6 +173,24 @@ header{
 .macList{
     position: relative;
     left: 5%;
+}
+
+.pasta #food2{
+    font-size:20px;
+    font-weight:500;
+    font-family:arial;
+}
+
+
+.pasta #title1{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight:600;
+}
+
+.pasta{
+    position: relative;
+    left:5%;
 }
 @media (max-width: 800px){
     .container{

@@ -78,6 +78,15 @@ text-decoration: underline;
     text-decoration:underline;
 }
 
+.boba1 #boba{
+    font-size:26px;
+}
+
+.boba1 #title{
+    font-size:30px;
+    font-weight: 600;
+    text-decoration:underline;
+}
 .button1 button{
     width: 160px;
     border-right: 970px;
@@ -127,6 +136,28 @@ text-decoration: underline;
 
 .button3 #bn4:hover{
     background-color:  rgb(225, 204, 138);
+}
+
+
+.button5 button{
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(199, 171, 133);
+    border-radius: 10px;
+    float: left;
+    margin-right: 50px;
+}
+
+.button5 #bn5:hover{
+    background-image: url('you.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.button5 #bn6:hover{
+    background-color: rgb(225,204,138);
 }
 
     
