@@ -1,7 +1,9 @@
 # Cook Book
 There are only 2 food and another 2 dessert that is included into the cook Book. will be adding more in the future. You can choice to go through a youtube Tutorial or a website. THE WEBSITE CAN BE USED ON MOBILE And other devices.
 
+# What i updated?
 
+I added lasagna and boba resources on how to make them.
 # What i used?
  i have only used two things HTML and CSS.
 
